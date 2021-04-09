@@ -53,7 +53,7 @@ function cb(x){
        let newCache = new Object;
     return cacheMemory = (x) => {
           if(!newCache.hasOwnProperty('cache')) {
-            newCache.cache="EXISTS"
+            newCache.cache="exists"
             newCache.count++
             newCache.value = cb(x) 
             return cb(x)
